@@ -11,6 +11,7 @@
 		A065CBA328FF0E5800494C27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A065CBA228FF0E5800494C27 /* ContentView.swift */; };
 		A065CBA528FF0E6000494C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A065CBA428FF0E6000494C27 /* Assets.xcassets */; };
 		A065CBA828FF0E6000494C27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A065CBA728FF0E6000494C27 /* Preview Assets.xcassets */; };
+		A065CBAF28FF12BE00494C27 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A065CBAE28FF12BE00494C27 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A065CBA228FF0E5800494C27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A065CBA428FF0E6000494C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A065CBA728FF0E6000494C27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A065CBAE28FF12BE00494C27 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				A065CBA028FF0E5800494C27 /* ExpenseTrackerApp.swift */,
 				A065CBA228FF0E5800494C27 /* ContentView.swift */,
+				A065CBAE28FF12BE00494C27 /* Extension.swift */,
 				A065CBA428FF0E6000494C27 /* Assets.xcassets */,
 				A065CBA628FF0E6000494C27 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A065CBAF28FF12BE00494C27 /* Extension.swift in Sources */,
 				A065CBA328FF0E5800494C27 /* ContentView.swift in Sources */,
 				A065CBA128FF0E5800494C27 /* ExpenseTrackerApp.swift in Sources */,
 			);
