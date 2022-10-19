@@ -18,6 +18,12 @@ struct TransactionList: View {
                     Section {
                         ForEach(transaction) { transaction in
                             TransactionRaw(transaction: transaction)
+                                .overlay(
+                                    NavigationLink("", destination: {
+                                        TransactionView(transaction: transaction)
+                                    })
+                                    .opacity(0)
+                                )
                         }
                     } header: {
                         //MARK: Transaction Month

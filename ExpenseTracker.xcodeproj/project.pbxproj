@@ -21,6 +21,8 @@
 		A065CBC028FF2F5100494C27 /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A065CBBF28FF2F5100494C27 /* TransactionList.swift */; };
 		A065CBC328FF35A400494C27 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = A065CBC228FF35A400494C27 /* Collections */; };
 		A065CBCC28FF503900494C27 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = A065CBCB28FF503900494C27 /* SwiftUICharts */; };
+		A0902E9329007DCD000BFF64 /* TransactionDetailRaw.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0902E9229007DCD000BFF64 /* TransactionDetailRaw.swift */; };
+		A0902E9529007EEE000BFF64 /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0902E9429007EEE000BFF64 /* TransactionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		A065CBBB28FF1E8700494C27 /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
 		A065CBBD28FF242D00494C27 /* RecentTransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionList.swift; sourceTree = "<group>"; };
 		A065CBBF28FF2F5100494C27 /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
+		A0902E9229007DCD000BFF64 /* TransactionDetailRaw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailRaw.swift; sourceTree = "<group>"; };
+		A0902E9429007EEE000BFF64 /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 				A065CBBD28FF242D00494C27 /* RecentTransactionList.swift */,
 				A065CBBF28FF2F5100494C27 /* TransactionList.swift */,
 				A065CBB628FF178C00494C27 /* TransactionRaw.swift */,
+				A0902E9429007EEE000BFF64 /* TransactionView.swift */,
+				A0902E9229007DCD000BFF64 /* TransactionDetailRaw.swift */,
 				A065CBBB28FF1E8700494C27 /* TransactionListViewModel.swift */,
 				A065CBB028FF15EF00494C27 /* TransactionModel.swift */,
 				A065CBAE28FF12BE00494C27 /* Extension.swift */,
@@ -178,6 +184,8 @@
 				A065CBC028FF2F5100494C27 /* TransactionList.swift in Sources */,
 				A065CBBE28FF242D00494C27 /* RecentTransactionList.swift in Sources */,
 				A065CBB128FF15EF00494C27 /* TransactionModel.swift in Sources */,
+				A0902E9329007DCD000BFF64 /* TransactionDetailRaw.swift in Sources */,
+				A0902E9529007EEE000BFF64 /* TransactionView.swift in Sources */,
 				A065CBAF28FF12BE00494C27 /* Extension.swift in Sources */,
 				A065CBB728FF178C00494C27 /* TransactionRaw.swift in Sources */,
 				A065CBA328FF0E5800494C27 /* ContentView.swift in Sources */,
