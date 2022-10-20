@@ -43,7 +43,7 @@ struct TransactionView: View {
             NavigationLink {
                 CategoriesView(transaction: transaction)
             } label: {
-                TransactionDetailRaw(icon: .list, title: "Category", text: transaction.category)
+                TransactionDetailRaw(icon: .list, title: "Category", text: transaction.categoryItem.name)
             }
         }
         .listStyle(.plain)
