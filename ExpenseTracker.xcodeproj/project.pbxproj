@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A00BD4EC2901B8AF006D368D /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BD4EB2901B8AF006D368D /* CategoryRow.swift */; };
+		A00BD4EE2901BA91006D368D /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BD4ED2901BA91006D368D /* CategoriesView.swift */; };
 		A065CBA128FF0E5800494C27 /* ExpenseTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A065CBA028FF0E5800494C27 /* ExpenseTrackerApp.swift */; };
 		A065CBA328FF0E5800494C27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A065CBA228FF0E5800494C27 /* ContentView.swift */; };
 		A065CBA528FF0E6000494C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A065CBA428FF0E6000494C27 /* Assets.xcassets */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A00BD4EB2901B8AF006D368D /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		A00BD4ED2901BA91006D368D /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 		A065CB9D28FF0E5800494C27 /* ExpenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A065CBA028FF0E5800494C27 /* ExpenseTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerApp.swift; sourceTree = "<group>"; };
 		A065CBA228FF0E5800494C27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,6 +86,8 @@
 				A065CBB628FF178C00494C27 /* TransactionRaw.swift */,
 				A0902E9429007EEE000BFF64 /* TransactionView.swift */,
 				A0902E9229007DCD000BFF64 /* TransactionDetailRaw.swift */,
+				A00BD4EB2901B8AF006D368D /* CategoryRow.swift */,
+				A00BD4ED2901BA91006D368D /* CategoriesView.swift */,
 				A065CBBB28FF1E8700494C27 /* TransactionListViewModel.swift */,
 				A065CBB028FF15EF00494C27 /* TransactionModel.swift */,
 				A065CBAE28FF12BE00494C27 /* Extension.swift */,
@@ -186,10 +192,12 @@
 				A065CBB128FF15EF00494C27 /* TransactionModel.swift in Sources */,
 				A0902E9329007DCD000BFF64 /* TransactionDetailRaw.swift in Sources */,
 				A0902E9529007EEE000BFF64 /* TransactionView.swift in Sources */,
+				A00BD4EE2901BA91006D368D /* CategoriesView.swift in Sources */,
 				A065CBAF28FF12BE00494C27 /* Extension.swift in Sources */,
 				A065CBB728FF178C00494C27 /* TransactionRaw.swift in Sources */,
 				A065CBA328FF0E5800494C27 /* ContentView.swift in Sources */,
 				A065CBBC28FF1E8700494C27 /* TransactionListViewModel.swift in Sources */,
+				A00BD4EC2901B8AF006D368D /* CategoryRow.swift in Sources */,
 				A065CBA128FF0E5800494C27 /* ExpenseTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
